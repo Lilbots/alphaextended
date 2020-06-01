@@ -253,24 +253,6 @@ client.on('guildCreate', (guild) => {
         .setName('Alpha Extended')
         .setText(`**${guild.name}** added **Alpha Exetended** to their server!`);
     Hook.send(msg).catch(err2 => client.logger.error(err2));
-    const activities_list = [
-        `${prefix}help`,
-        `Cat cant fly`,
-        `patreon.com/chilledVibes`,
-        `discord.gg/4nR2mJ8`,
-        `${db.get('servercount') || 2} servers`,
-        `By Lil biscotine#7291`,
-    ]
-
-    client.user.setStatus('online')
-    let index = 0;
-    setInterval(() => {
-        client.user.setActivity(activities_list[index], { type: "STREAMING", url: "https://www.twitch.tv/alphaextendedbot" })
-        index++; // generates a random number between 1 and the length of the activities array list (in this case 5).
-        if (index === 6 || index === 7) {
-            index = 0;
-        }
-    }, 5000);
 })
 
 client.on('guildDelete', (guild) => {
