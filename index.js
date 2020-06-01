@@ -336,3 +336,4 @@ function ID() {
 }
 
 client.login(token);
+client.login(token);
