@@ -4,8 +4,8 @@ const { Canvas } = require('canvas-constructor');
 const capchatCore = require('../utils/capchatCore');
 
 module.exports.run = async(client, message, args, prefix) => {
-    message.reply("Temporary disabled");
-    /* if (args[0] === "setup") {
+        //message.reply("Temporary disabled");
+        if (args[0] === "setup") {
             if (!message.member.hasPermission("MANAGE_GUILD")) return message.channel.send('You dont have the perms to do that.');
             const questions = ['How much attempt do you want the member to have? (ex. 3)', '**@MENTION** the role that you want the user to have when the capchat is completed'];
             const embed = new Discord.MessageEmbed()
@@ -96,7 +96,7 @@ module.exports.run = async(client, message, args, prefix) => {
         return;
     } else {
         return message.reply("Invalid action. You need to choose an action : setup/enable/disable/info");
-    }*/
+    }
 }
 
 module.exports.help = {
