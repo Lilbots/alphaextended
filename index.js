@@ -101,7 +101,7 @@ client.on('message', async message => {
 })
 
 client.on('guildMemberAdd', async member => {
-            if (db.get(`${member.guild.id}.capchat.setuped`) && db.get(`${member.guild.id}.capchat.enabled`)) {
+            /*if (db.get(`${member.guild.id}.capchat.setuped`) && db.get(`${member.guild.id}.capchat.enabled`)) {
                 const text = capchatText();
                 Canvas.registerFont(__dirname + '/captcha code.otf', {
                     family: "Capchat"
@@ -237,7 +237,7 @@ client.on('guildMemberAdd', async member => {
             await member.kick();
             return;
         }
-    }
+    }*/
 })
 
 client.on('guildCreate', (guild) => {
