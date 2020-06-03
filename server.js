@@ -4,7 +4,7 @@ const app = express();
 const path = require('path');
 const db = require('quick.db');
 const port = process.env.PORT || 3000;
-app.set('port', port);
+//app.set('port', port);
 
 app.get('/', (req, res) => {
     res.render('index.ejs', { title: 'Alpha Extended', servercount: db.get('servercount') })
@@ -43,4 +43,7 @@ module.exports = client => {
     });
 }
 
-app.listen(port);
+
+app.listen(port, () => {
+    console.log("server launched");
+});
