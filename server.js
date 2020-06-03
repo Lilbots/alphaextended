@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 //app.set('port', port);
 //require('./index')
 app.get('/', (req, res) => {
-    res.render('index.ejs', { title: 'Alpha Extended', `${db.get('servercount')}`, channelscount: `${db.get('channelscount')}`, userscount: `${db.get('usercount')}` })
+    res.render('index.ejs', { title: 'Alpha Extended', servercount: `${db.get('servercount')}`, channelscount: `${db.get('channelscount')}`, userscount: `${db.get('usercount')}` })
 })
 app.use(express.static('static'))
 
