@@ -1,24 +1,30 @@
 {
-  "name": "alphaextended",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ascii-table": "0.0.9",
-    "canvas": "^2.6.1",
-    "canvas-constructor": "^3.2.0",
-    "child_process": "^1.0.2",
-    "discord-backup": "^2.1.17",
-    "discord.js": "^12.2.0",
-    "fs": "0.0.1-security",
-    "moment": "^2.26.0",
-    "quick.db": "^7.1.1",
-    "webhook-discord": "^3.7.3",
-    "winston": "^3.2.1"
-  }
+    "name": "alphaextended",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ascii-table": "0.0.9",
+        "canvas": "^2.6.1",
+        "canvas-constructor": "^3.2.0",
+        "child_process": "^1.0.2",
+        "discord-backup": "^2.1.17",
+        "discord.js": "^12.2.0",
+        "ejs": "^2.6.1",
+        "express": "^4.16.3",
+        "express-session": "^1.15.6",
+        "form-data": "^2.3.2",
+        "fs": "0.0.1-security",
+        "moment": "^2.26.0",
+        "node-fetch": "^2.2.0",
+        "quick.db": "^7.1.1",
+        "uid-safe": "^2.1.5",
+        "webhook-discord": "^3.7.3",
+        "winston": "^3.2.1"
+    }
 }

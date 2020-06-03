@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const { prefix, token } = require("./config.json");
+const { prefix, token, clientId, clientSecret } = require("./config.json");
 const fs = require("fs");
 const db = require("quick.db");
 const webhook = require("webhook-discord");
@@ -11,7 +11,7 @@ const notifWebhook = "https://discordapp.com/api/webhooks/717106000288677899/hBW
 const { Canvas } = require('canvas-constructor');
 const { MessageAttachment } = require('discord.js');
 const capchatText = require('./utils/capchatText')
-
+    //require('./express/server.js')(client);
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.logger = winston.createLogger({
@@ -24,13 +24,13 @@ client.logger = winston.createLogger({
     )
 })
 
+require('./server')(client);
 var AsciiTable = require("ascii-table");
 var table = new AsciiTable('Commands')
 table
     .setHeading('Name', 'State');
 
 fs.readdir('./commands/', (err, files) => {
-
     if (err) console.log(err);
     let jsfile = files.filter(f => f.split(".").pop() === "js");
     if (jsfile.length <= 0) {
@@ -52,23 +52,19 @@ fs.readdir('./commands/', (err, files) => {
 })
 
 client.on('ready', () => {
+    db.set('servercount', client.guilds.cache.size);
+    db.set('channelscount', client.channels.cache.size);
+    db.set('usercount', client.users.cache.size);
     console.log("Im online");
-
     const activities_list = [
         `${prefix}help`,
-        `Cat cant fly`,
-        `${db.get('servercount') || 2} servers`
+        //`Cat cant fly`,
+        //`${db.get('servercount') || 2} servers`
     ]
 
     client.user.setStatus('online')
     let index = 0;
-    setInterval(() => {
-        client.user.setActivity(activities_list[index], { type: "STREAMING", url: "https://www.twitch.tv/alphaextendedbot" })
-        index++; // generates a random number between 1 and the length of the activities array list (in this case 5).
-        if (index === 3 || index === 4) {
-            index = 0;
-        }
-    }, 5000);
+    client.user.setActivity(`${prefix}help`, { type: "STREAMING", url: "https://www.twitch.tv/alphaextendedbot" })
 
     const Hook = new webhook.Webhook(logWebhook);
     const msg = new webhook.MessageBuilder()
@@ -98,10 +94,13 @@ client.on('message', async message => {
         commandfile.run(client, message, args, prefix);
 
     } catch (e) {}
-})
+});
 
 client.on('guildMemberAdd', async member => {
-            if (db.get(`${member.guild.id}.capchat.setuped`) && db.get(`${member.guild.id}.capchat.enabled`)) {
+    db.set('servercount', client.guilds.cache.size);
+    db.set('channelscount', client.channels.cache.size);
+    db.set('usercount', client.users.cache.size);
+    /*if (db.get(`${member.guild.id}.capchat.setuped`) && db.get(`${member.guild.id}.capchat.enabled`)) {
                 const text = capchatText();
                 Canvas.registerFont(__dirname + '/captcha code.otf', {
                     family: "Capchat"
@@ -237,7 +236,7 @@ client.on('guildMemberAdd', async member => {
             await member.kick();
             return;
         }
-    }
+    }*/
 })
 
 client.on('guildCreate', (guild) => {
@@ -248,14 +247,15 @@ client.on('guildCreate', (guild) => {
         .setName('Alpha Extended')
         .setText(`**${guild.name}** added **Alpha Exetended** to their server!`);
     Hook.send(msg).catch(err2 => client.logger.error(err2));
+    db.set('servercount', client.guilds.cache.size);
+    db.set('channelscount', client.channels.cache.size);
+    db.set('usercount', client.users.cache.size);
 })
 
 client.on('guildDelete', (guild) => {
-    if (db.get('servercount')) {
-        db.set('servercount', db.get('servercount') - 1);
-    } else {
-        db.set('servercount', 2 - 1);
-    }
+    db.set('servercount', client.guilds.cache.size);
+    db.set('channelscount', client.channels.cache.size);
+    db.set('usercount', client.users.cache.size);
 })
 
 
