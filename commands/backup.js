@@ -6,6 +6,7 @@ const fs = require('fs')
 module.exports.run = async(client, message, args, prefix) => {
     if (args[0] === "create") {
         if (!message.member.hasPermission("MANAGE_GUILD")) return message.reply("You dont have the perms to do that");
+        if ((await backup.list()).length === 25) return message.reply("You have reach the max backups count. To make more backup you need to purchase premium");
         const loading = new Discord.MessageEmbed()
             .setColor("BLUE")
             .setTitle("Creating backup please wait...");
@@ -126,7 +127,7 @@ module.exports.run = async(client, message, args, prefix) => {
                 });*/
 
         });
-        await embed.setTitle("All backups");
+        await embed.setTitle(`All backups (${(await backup.list()).length} backups)`);
         await msg.edit(embed);
         await message.channel.send(({ files: [{ attachment: `backup-list-${message.guild.name}.txt` }] })).catch()
         fs.unlink(`backup-list-${message.guild.name}.txt`, function(err) {
