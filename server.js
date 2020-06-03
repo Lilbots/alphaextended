@@ -5,7 +5,7 @@ const path = require('path');
 const db = require('quick.db');
 const port = process.env.PORT || 3000;
 //app.set('port', port);
-//require('./index')
+require('./index')
 app.get('/', (req, res) => {
     res.render('index.ejs', { title: 'Alpha Extended', servercount: db.get('servercount') })
 })
