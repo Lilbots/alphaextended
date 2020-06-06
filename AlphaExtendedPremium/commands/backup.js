@@ -6,7 +6,7 @@ const fs = require('fs')
 module.exports.run = async(client, message, args, prefix) => {
     if (args[0] === "create") {
         if (!message.member.hasPermission("MANAGE_GUILD")) return message.reply("You dont have the perms to do that");
-        if ((await backup.list()).length === 25) return message.reply("You have reach the max backups count. To make more backup you need to purchase premium");
+        if ((await backup.list()).length === 125) return message.reply("You have reach the max backups count. To make more backup you need to purchase premium");
         const loading = new Discord.MessageEmbed()
             .setColor("ORANGE")
             .setTitle("Creating backup please wait...");
