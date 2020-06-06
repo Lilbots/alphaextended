@@ -1,0 +1,10 @@
+{
+    "api": {
+        "host": "api.sandbox.paypal.com",
+        "port": "",
+        "client_id": "AchNnVeUFWEASUlD7cexq8TiAmyVHR5Crop5kfM2XwhQYU7v6S0VPzs3MgfI2OcF5L8J_ue14Ap3DqUf",
+        "client_secret": "EA4oH2-_jEbX91J3g3bCaIb2CbBdh22Br0aCNvnlSM4CKNkYevmefdeCDjUYCOkaohrpL9aeTHy5LaBl"
+    },
+    "returnUrl": "http://localhost:3000/returnurl",
+    "cancelUrl": "http://localhost:3000/order/user/"
+}

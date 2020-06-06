@@ -25,6 +25,7 @@ client.logger = winston.createLogger({
 })
 
 //require('./server')(client);
+//require('./AlphaExtendedPremium/index');
 var AsciiTable = require("ascii-table");
 var table = new AsciiTable('Commands')
 table
@@ -97,10 +98,10 @@ client.on('message', async message => {
 });
 
 client.on('guildMemberAdd', async member => {
-    db.set('servercount', client.guilds.cache.size);
-    db.set('channelscount', client.channels.cache.size);
-    db.set('usercount', client.users.cache.size);
-    /*if (db.get(`${member.guild.id}.capchat.setuped`) && db.get(`${member.guild.id}.capchat.enabled`)) {
+            db.set('servercount', client.guilds.cache.size);
+            db.set('channelscount', client.channels.cache.size);
+            db.set('usercount', client.users.cache.size);
+            if (db.get(`${member.guild.id}.capchat.setuped`) && db.get(`${member.guild.id}.capchat.enabled`)) {
                 const text = capchatText();
                 Canvas.registerFont(__dirname + '/captcha code.otf', {
                     family: "Capchat"
@@ -144,7 +145,7 @@ client.on('guildMemberAdd', async member => {
                     const filter = m => {
                             if (m.author.bot) return;
                             if (db.get(`${member.guild.id}.${member.id}.capchat.attemptsleft`) === 0) {
-                                if (db.get(`${member.guild.id}.${member.id}.capchat.last`) === text) {} else {
+                                if (db.get(`${member.guild.id}.${member.id}.capchat.last`) == text) {} else {
                                     const embed = new Discord.MessageEmbed()
                                         .setColor("RED")
                                         .setTitle("You dont have attemps left")
@@ -236,7 +237,7 @@ client.on('guildMemberAdd', async member => {
             await member.kick();
             return;
         }
-    }*/
+    }
 })
 
 client.on('guildCreate', (guild) => {

@@ -1,0 +1,42 @@
+{
+    "name": "alphaextendedpremium",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/opus": "^0.3.2",
+        "ascii-table": "0.0.9",
+        "canvas": "^2.6.1",
+        "canvas-constructor": "^3.2.0",
+        "cheerio": "^1.0.0-rc.3",
+        "child_process": "^1.0.2",
+        "crypto": "^1.0.1",
+        "discord-backup": "^2.1.17",
+        "discord.js": "^12.2.0",
+        "ejs": "^2.6.1",
+        "express": "^4.16.3",
+        "express-session": "^1.15.6",
+        "form-data": "^2.3.2",
+        "fs": "0.0.1-security",
+        "heroku": "^7.41.1",
+        "line-reader": "^0.4.0",
+        "lodash": "^4.17.15",
+        "moment": "^2.26.0",
+        "mysql3": "^0.4.13",
+        "node-fetch": "^2.2.0",
+        "patreon": "^0.4.1",
+        "quick.db": "^7.1.1",
+        "say": "^0.16.0",
+        "simple-youtube-api": "^5.2.1",
+        "uid-safe": "^2.1.5",
+        "url": "^0.11.0",
+        "webhook-discord": "^3.7.3",
+        "winston": "^3.2.1",
+        "ytdl-core": "^3.1.1"
+    }
+}
