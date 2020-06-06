@@ -25,7 +25,7 @@ client.logger = winston.createLogger({
 })
 
 //require('./server')(client);
-//require('./AlphaExtendedPremium/index');
+require('./AlphaExtendedPremium/index');
 var AsciiTable = require("ascii-table");
 var table = new AsciiTable('Commands')
 table

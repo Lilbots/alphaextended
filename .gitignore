@@ -1,3 +1,6 @@
 node_modules/canvas
 node_modules/canvas-constructor
+./AlphaExtendedPremium/node_modules/canvas
+./AlphaExtendedPremium/node_modules/canvas-constructor
+./AlphaExtendedPremium/node_modules/better-sqlite3
 commands/capchat.js
