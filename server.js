@@ -60,7 +60,7 @@ app.get('/subscriptions', (req, res) => {
 })
 
 app.get('/home', (req, res) => {
-    res.render('index.ejs', { title: 'Alpha Extended', servercount: `${db.get('servercount')}`, channelscount: `${db.get('channelscount')}`, userscount: `${db.get('usercount')}` });
+    res.render('index.ejs', { title: 'Alpha Extended', servercount: `43`, channelscount: `2857`, userscount: `7865` });
     console.log(db.get('servercount'));
     // res.redirect('/');
 })
