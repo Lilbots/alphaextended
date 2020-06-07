@@ -1,0 +1,1552 @@
+{
+    "name": "Alpha Extended Support",
+    "region": "us-east",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL",
+    "afk": {
+        "name": "AFK",
+        "timeout": 300
+    },
+    "embed": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Read only",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 6144
+                    },
+                    {
+                        "roleName": "Helper",
+                        "allow": 3072,
+                        "deny": 0
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "rules",
+                        "rateLimitPerUser": 0,
+                        "parent": "Read only",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 6144
+                            },
+                            {
+                                "roleName": "Helper",
+                                "allow": 3072,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "__**Punishments:**__\nWarning 1: Warn\nWarning 2: 30 Minute Mute\nWarning 3: 45 Minute Mute\nWarning 4: 1 Hour Mute\nWarning 5: 12 Hour Mute (Appealable)\nWarning 6: 32 Hour Mute (Appealable)\nWarning 7: 24 Hour Mute (Appealable)\n__**Note: Warning 8 and 9 are 24 hour as well**__\nWarning 10: 1 Day Temp Ban (Appealable)\nWarning 11: 7 day Temp Ban (Appealable)\nWarning 12: Perm Ban (Appealable)",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "Hello! Welcome to Alpha Extended Support, here this is a discord server for Alpha Extended and Alpha Extended Premium\nAs you may know, there are rules to be read, we suggest reading them just so you don't get falsed warned :D\n\n__**General Rules:**__\nRule 1: No NSFW in any form, there is no NSFW coming to this server at all, if this is posted to a channel. You will be permanently banned, appeals are available as always, but for 30 days only\nRule 2: We like to keep it family friendly here, so no swearing at all, this will vary between what you say and who you say it to\nRule 3: We take any form of abuse like cyber abuse in words or saying \"I will kill you\" in dms or on the server, note that if it is in dms, we need proof or we cannot punish them\nRule 4: We don't want any daters like people meeting for the first time and talking a lot and getting in the way of others, if you like someone and you want to talk about a lot, please move to dms\nRule 5: Use all channels correctly, if you do it on accident or the do this the first time, we understand. Mistakes are mistakes!\nRule 6: We don't take any people bringing people down like, Billy is gonna run a marathon, and Bob tells him that he is bad at running and Billy doesn't do the marathon now\nRule 7: Don't overuse bots or just hog it to you, other people want to see their stats as well!\nRule 8: Racism is not permitted anywhere in this servr at all! If you are racist, you'll be permanently banned without an appeal\nRule 9: Don't spam, just don't be **THAT** guy, come on please\n\n__**Note:**__ In some channels, some other rules are added just for your safety!",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "",
+                                "embeds": [],
+                                "pinned": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "announcements",
+                        "rateLimitPerUser": 0,
+                        "parent": "Read only",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 6144
+                            },
+                            {
+                                "roleName": "Helper",
+                                "allow": 3072,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "@here https://alpha-extended.herokuapp.com/",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "It's pretty cool",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "867 channels",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "560 users",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "We are at 25 servers",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "@here if you make 10 server use our bot you get premium for free",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "https://gleam.io/feAHd-nv0FdZ2Ukx",
+                                "embeds": [
+                                    {
+                                        "title": "x10 Discord Nitro Classic",
+                                        "type": "rich",
+                                        "url": "https://gleam.io/feAHd-nv0FdZ2Ukx",
+                                        "timestamp": null,
+                                        "fields": [],
+                                        "thumbnail": {
+                                            "url": "https://js.out.sh/assets/open-graph-win-047daea7a2b1f58157c8769e3e2515dff1cb234595efa346639195e0c9c0a096.png",
+                                            "proxyURL": "https://images-ext-1.discordapp.net/external/454u5sLbOiOcmTFpbfh5hDc6I3H8PTRdxX0oupo2nm8/https/js.out.sh/assets/open-graph-win-047daea7a2b1f58157c8769e3e2515dff1cb234595efa346639195e0c9c0a096.png",
+                                            "height": 1200,
+                                            "width": 1200
+                                        },
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "bot-status",
+                        "rateLimitPerUser": 0,
+                        "parent": "Read only",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 6144
+                            },
+                            {
+                                "roleName": "Helper",
+                                "allow": 3072,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "Alpha: Up Premium: Down",
+                                "embeds": [],
+                                "pinned": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "best-servers",
+                        "rateLimitPerUser": 0,
+                        "parent": "Read only",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 6144
+                            },
+                            {
+                                "roleName": "Helper",
+                                "allow": 3072,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Alpha Extended",
+                                "avatar": "https://cdn.discordapp.com/avatars/717106000288677899/45479ab2b03053d31053083c3a817aae.webp",
+                                "content": "**Elite’s Universe** added **Alpha Exetended Premium** to their server!",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended",
+                                "avatar": "https://cdn.discordapp.com/avatars/717106000288677899/45479ab2b03053d31053083c3a817aae.webp",
+                                "content": "**Cool server** added **Alpha Exetended** to their server!",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended",
+                                "avatar": "https://cdn.discordapp.com/avatars/717106000288677899/45479ab2b03053d31053083c3a817aae.webp",
+                                "content": "**Played_Leon's Official Server** added **Alpha Exetended** to their server!",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended",
+                                "avatar": "https://cdn.discordapp.com/avatars/717106000288677899/45479ab2b03053d31053083c3a817aae.webp",
+                                "content": "**【DiamondCraft】** added **Alpha Exetended** to their server!",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended",
+                                "avatar": "https://cdn.discordapp.com/avatars/717106000288677899/45479ab2b03053d31053083c3a817aae.webp",
+                                "content": "**AdRo's server** added **Alpha Exetended** to their server!",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended",
+                                "avatar": "https://cdn.discordapp.com/avatars/717106000288677899/45479ab2b03053d31053083c3a817aae.webp",
+                                "content": "**Minecraft Content Creators** added **Alpha Exetended** to their server!",
+                                "embeds": [],
+                                "pinned": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "general",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "chat",
+                        "rateLimitPerUser": 0,
+                        "parent": "general",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "username": "debowiec",
+                                "avatar": "https://cdn.discordapp.com/avatars/650352147463929856/b6b5d250761c4cf99b6966e545ba3a3d.webp",
+                                "content": "the premium AE?",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "You have it",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "debowiec",
+                                "avatar": "https://cdn.discordapp.com/avatars/650352147463929856/b6b5d250761c4cf99b6966e545ba3a3d.webp",
+                                "content": "@Lil biscotine",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "debowiec",
+                                "avatar": "https://cdn.discordapp.com/avatars/650352147463929856/b6b5d250761c4cf99b6966e545ba3a3d.webp",
+                                "content": "can you give me verified role pls",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "No",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "s",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "s",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "s",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "s",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "Dms",
+                                "embeds": [],
+                                "pinned": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "CHILL 1",
+                        "bitrate": 96000,
+                        "userLimit": 50,
+                        "parent": "general",
+                        "permissions": []
+                    },
+                    {
+                        "type": "text",
+                        "name": "bot-commands",
+                        "rateLimitPerUser": 0,
+                        "parent": "general",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "Ss",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended Premium",
+                                "avatar": "https://cdn.discordapp.com/avatars/717096158169923676/e3e57eac1133e1763ee8e926912e070e.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Prefix : & || License type : **Platinium**",
+                                        "type": "rich",
+                                        "timestamp": null,
+                                        "color": 15105570,
+                                        "fields": [
+                                            {
+                                                "name": "&",
+                                                "value": "**help :** Get a list of command\n**report :** Report a bug to the developers\n**invite :** Get an invite to add this bot to your server\n**prefix :** Change the bot prefix",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "captcha (setup/enable/disable/info/interval)",
+                                                "value": "**setup :** Setup the captcha in your server\n**enable :** Enable the captcha\n**disable :** Disable the captcha\n**info :** See info about captcha in your server\n**interval (interval):** Set the backup interval",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "backup (create/load/remove/list)",
+                                                "value": "**create :** Create a backup of your server\n**load (backupId) :** Load a backup of your server by id\n**remove (backupId) :** Remove backup by id\n**list :** See the list of all your backups",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "music (play/stop/skip/queue/connect/disconnect)",
+                                                "value": "**play (musicName):** Play a song of your choice\n**stop/skip :** Stop and skip the current song playing\n**queue :** See the song queue\n**connect/disconnect :** Connect/Disconnect the bot from a voice channel",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "customize (captcha)",
+                                                "value": "**captcha :** Customize the captcha style",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "BETA (nameOfTheFeature)",
+                                                "value": "**nameOfTheFeature :** Test the feature that you provideed",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "BETA Features",
+                                                "value": "Nothing right now",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "You can join our support server",
+                                                "value": "[Alpha Extended Support Server](https://discord.gg/rCyvbWZ)",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "You can support us with",
+                                                "value": "[Patreon](https://paypal.me/chilledvibes)\n[Paypal](https://patreon.com/chilledVibes)",
+                                                "inline": false
+                                            }
+                                        ],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "&help",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "&activate premium &activate premium",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended Premium",
+                                "avatar": "https://cdn.discordapp.com/avatars/717096158169923676/e3e57eac1133e1763ee8e926912e070e.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "License activated!",
+                                        "type": "rich",
+                                        "description": "Thanks for buying and using **Alpha Extended Premium**! You can now use all the perks of Platinium!",
+                                        "timestamp": null,
+                                        "color": 15105570,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended Premium",
+                                "avatar": "https://cdn.discordapp.com/avatars/717096158169923676/e3e57eac1133e1763ee8e926912e070e.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Invalid license key",
+                                        "type": "rich",
+                                        "description": "The license you provided is not valid. Please provide a correct one.\n\nIf you already bought a license key and it not working please dm Lil biscotine#7291",
+                                        "timestamp": null,
+                                        "color": 15105570,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended Premium",
+                                "avatar": "https://cdn.discordapp.com/avatars/717096158169923676/e3e57eac1133e1763ee8e926912e070e.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "License activated!",
+                                        "type": "rich",
+                                        "description": "Thanks for buying and using **Alpha Extended Premium**! You can now use all the perks of Premium!",
+                                        "timestamp": null,
+                                        "color": 15105570,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended Premium",
+                                "avatar": "https://cdn.discordapp.com/avatars/717096158169923676/e3e57eac1133e1763ee8e926912e070e.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Invalid license key",
+                                        "type": "rich",
+                                        "description": "The license you provided is not valid. Please provide a correct one.\n\nIf you already bought a license key and it not working please dm Lil biscotine#7291",
+                                        "timestamp": null,
+                                        "color": 15105570,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended Premium",
+                                "avatar": "https://cdn.discordapp.com/avatars/717096158169923676/e3e57eac1133e1763ee8e926912e070e.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "License not activated",
+                                        "type": "rich",
+                                        "description": "If you want to use this bot in your server you need to purchase a license key.\n\nYou can do `&activate premium/platinium licenseKey` to active the bot.",
+                                        "timestamp": null,
+                                        "color": 15105570,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "s",
+                                "embeds": [],
+                                "pinned": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "CHILL 2",
+                        "bitrate": 96000,
+                        "userLimit": 50,
+                        "parent": "general",
+                        "permissions": []
+                    },
+                    {
+                        "type": "voice",
+                        "name": "CHILL 3",
+                        "bitrate": 96000,
+                        "userLimit": 50,
+                        "parent": "general",
+                        "permissions": []
+                    },
+                    {
+                        "type": "voice",
+                        "name": "AFK",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "general",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "Music",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "MUSIC 1",
+                        "bitrate": 96000,
+                        "userLimit": 15,
+                        "parent": "Music",
+                        "permissions": []
+                    },
+                    {
+                        "type": "text",
+                        "name": "music-commands",
+                        "rateLimitPerUser": 0,
+                        "parent": "Music",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "username": "Alpha Extended Premium",
+                                "avatar": "https://cdn.discordapp.com/avatars/717096158169923676/e3e57eac1133e1763ee8e926912e070e.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Prefix : & || License type : **Premium**",
+                                        "type": "rich",
+                                        "timestamp": null,
+                                        "color": 15105570,
+                                        "fields": [
+                                            {
+                                                "name": "&",
+                                                "value": "**help :** Get a list of command\n**report :** Report a bug to the developers\n**invite :** Get an invite to add this bot to your server\n**prefix :** Change the bot prefix",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "captcha (setup/enable/disable/info/interval)",
+                                                "value": "**setup :** Setup the captcha in your server\n**enable :** Enable the captcha\n**disable :** Disable the captcha\n**info :** See info about captcha in your server\n**interval (interval):** Set the backup interval",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "backup (create/load/remove/list)",
+                                                "value": "**create :** Create a backup of your server\n**load (backupId) :** Load a backup of your server by id\n**remove (backupId) :** Remove backup by id\n**list :** See the list of all your backups",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "music (play/stop/skip/queue/connect/disconnect)",
+                                                "value": "**play (musicName):** Play a song of your choice\n**stop/skip :** Stop and skip the current song playing\n**queue :** See the song queue\n**connect/disconnect :** Connect/Disconnect the bot from a voice channel",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "You can join our support server",
+                                                "value": "[Alpha Extended Support Server](https://discord.gg/rCyvbWZ)",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "You can support us with",
+                                                "value": "[Patreon](https://paypal.me/chilledvibes)\n[Paypal](https://patreon.com/chilledVibes)",
+                                                "inline": false
+                                            }
+                                        ],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "&help",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "f",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended Premium",
+                                "avatar": "https://cdn.discordapp.com/avatars/717096158169923676/e3e57eac1133e1763ee8e926912e070e.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Backup created",
+                                        "type": "rich",
+                                        "timestamp": null,
+                                        "color": 3447003,
+                                        "fields": [
+                                            {
+                                                "name": "Server name",
+                                                "value": "Alpha Extended Support",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "Server id",
+                                                "value": "717094887253737482",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "Backup id",
+                                                "value": "718505401338953728",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "Created on (UTC)",
+                                                "value": "6/05/2020 16:43:56",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "Backup size",
+                                                "value": "0.08",
+                                                "inline": true
+                                            }
+                                        ],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "&backup create",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended",
+                                "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Prefix : %",
+                                        "type": "rich",
+                                        "timestamp": null,
+                                        "color": 3447003,
+                                        "fields": [
+                                            {
+                                                "name": "misc",
+                                                "value": "**help :** Get a list of command\n**report :** Report a bug to the developers\n**invite :** Get an invite to add this bot to your server\n**premium :** See what premium has to offer",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "captcha (setup/enable/disable/info)",
+                                                "value": "**setup :** Setup the captcha in your server\n**enable :** Enable the captcha\n**disable :** Disable the captcha\n**info :** See info about captcha in your server",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "backup (create/load/remove/list)",
+                                                "value": "**create :** Create a backup of your server\n**load (backupId) :** Load a backup of your server by id\n**remove (backupId) :** Remove backup by id\n**list :** See the list of all your backups",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "You can join our support server",
+                                                "value": "[Alpha Extended Support Server](https://discord.gg/rCyvbWZ)",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "You can support us with",
+                                                "value": "[Patreon](https://paypal.me/chilledvibes)\n[Paypal](https://patreon.com/chilledVibes)",
+                                                "inline": false
+                                            }
+                                        ],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended",
+                                "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Prefix : %",
+                                        "type": "rich",
+                                        "timestamp": null,
+                                        "color": 3447003,
+                                        "fields": [
+                                            {
+                                                "name": "%",
+                                                "value": "**help :** Get a list of command\n**report :** Report a bug to the developers\n**invite :** Get an invite to add this bot to your server\n**premium :** See what premium has to offer",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "captcha (setup/enable/disable/info)",
+                                                "value": "**setup :** Setup the captcha in your server\n**enable :** Enable the captcha\n**disable :** Disable the captcha\n**info :** See info about captcha in your server",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "backup (create/load/remove/list)",
+                                                "value": "**create :** Create a backup of your server\n**load (backupId) :** Load a backup of your server by id\n**remove (backupId) :** Remove backup by id\n**list :** See the list of all your backups",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "You can join our support server",
+                                                "value": "[Alpha Extended Support Server](https://discord.gg/rCyvbWZ)",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "You can support us with",
+                                                "value": "[Patreon](https://paypal.me/chilledvibes)\n[Paypal](https://patreon.com/chilledVibes)",
+                                                "inline": false
+                                            }
+                                        ],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "%help",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended Premium",
+                                "avatar": "https://cdn.discordapp.com/avatars/717096158169923676/e3e57eac1133e1763ee8e926912e070e.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Prefix : & || License type : **Premium**",
+                                        "type": "rich",
+                                        "timestamp": null,
+                                        "color": 15105570,
+                                        "fields": [
+                                            {
+                                                "name": "&",
+                                                "value": "**help :** Get a list of command\n**report :** Report a bug to the developers\n**invite :** Get an invite to add this bot to your server\n**prefix :** Change the bot prefix",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "captcha (setup/enable/disable/info/interval)",
+                                                "value": "**setup :** Setup the captcha in your server\n**enable :** Enable the captcha\n**disable :** Disable the captcha\n**info :** See info about captcha in your server\n**interval (interval):** Set the backup interval",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "backup (create/load/remove/list)",
+                                                "value": "**create :** Create a backup of your server\n**load (backupId) :** Load a backup of your server by id\n**remove (backupId) :** Remove backup by id\n**list :** See the list of all your backups",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "music (play/stop/skip/queue/connect/disconnect)",
+                                                "value": "**play (musicName):** Play a song of your choice\n**stop/skip :** Stop and skip the current song playing\n**queue :** See the song queue\n**connect/disconnect :** Connect/Disconnect the bot from a voice channel",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "You can join our support server",
+                                                "value": "[Alpha Extended Support Server](https://discord.gg/rCyvbWZ)",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "You can support us with",
+                                                "value": "[Patreon](https://paypal.me/chilledvibes)\n[Paypal](https://patreon.com/chilledVibes)",
+                                                "inline": false
+                                            }
+                                        ],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "&help",
+                                "embeds": [],
+                                "pinned": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "MUSIC 2",
+                        "bitrate": 96000,
+                        "userLimit": 15,
+                        "parent": "Music",
+                        "permissions": []
+                    },
+                    {
+                        "type": "voice",
+                        "name": "MUSIC 3",
+                        "bitrate": 96000,
+                        "userLimit": 15,
+                        "parent": "Music",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "support",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "support-1",
+                        "rateLimitPerUser": 0,
+                        "parent": "support",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "",
+                                "embeds": [],
+                                "pinned": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "support-2",
+                        "rateLimitPerUser": 0,
+                        "parent": "support",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "",
+                                "embeds": [],
+                                "pinned": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "support-3",
+                        "rateLimitPerUser": 0,
+                        "parent": "support",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "username": "TheElxteYT",
+                                "avatar": "https://cdn.discordapp.com/avatars/637004365005324314/a_b12b2a81caeec0ccb07f8f5955a3f16a.webp",
+                                "content": "",
+                                "embeds": [],
+                                "pinned": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "feedback",
+                        "rateLimitPerUser": 0,
+                        "parent": "support",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": []
+                    },
+                    {
+                        "type": "text",
+                        "name": "developement",
+                        "rateLimitPerUser": 0,
+                        "parent": "support",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "username": "Alpha Extended Premium",
+                                "avatar": "https://cdn.discordapp.com/avatars/717096158169923676/e3e57eac1133e1763ee8e926912e070e.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Creating backup please wait...",
+                                        "type": "rich",
+                                        "timestamp": null,
+                                        "color": 15105570,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Alpha Extended Premium",
+                                "avatar": "https://cdn.discordapp.com/avatars/717096158169923676/e3e57eac1133e1763ee8e926912e070e.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Backup created",
+                                        "type": "rich",
+                                        "timestamp": null,
+                                        "color": 15105570,
+                                        "fields": [
+                                            {
+                                                "name": "Server name",
+                                                "value": "Alpha Extended Support",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "Server id",
+                                                "value": "717094887253737482",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "Backup id",
+                                                "value": "719223382553526272",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "Created on (UTC)",
+                                                "value": "6/07/2020 16:16:56",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "Backup size",
+                                                "value": "0.08",
+                                                "inline": true
+                                            }
+                                        ],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "&backup create",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "&bckcheck",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "%bckcheck",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "%bckcheck",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "&bckcheck",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "&bckcheck",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "&bckcheck",
+                                "embeds": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Lil biscotine",
+                                "avatar": "https://cdn.discordapp.com/avatars/690733972883243008/d36ca9c7507047883bc884eb2d93553c.webp",
+                                "content": "&bckcheck",
+                                "embeds": [],
+                                "pinned": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "text",
+                "name": "captcha-logs",
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Developer",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "Helper",
+                        "allow": 1024,
+                        "deny": 0
+                    }
+                ],
+                "messages": [
+                    {
+                        "username": "Alpha Extended",
+                        "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Captcha Expired",
+                                "type": "rich",
+                                "timestamp": null,
+                                "color": 3447003,
+                                "fields": [
+                                    {
+                                        "name": "User",
+                                        "value": "IDEEserveYT#8455",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Code",
+                                        "value": "FUiNEl",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Captcha Id",
+                                        "value": "e4e66e6d-4d30-3999-ac9a-c38d9810c5d6",
+                                        "inline": false
+                                    }
+                                ],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Add me :) https://bit.ly/2ZTIEvw"
+                                }
+                            }
+                        ],
+                        "pinned": false
+                    },
+                    {
+                        "username": "Alpha Extended",
+                        "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Captcha Expired",
+                                "type": "rich",
+                                "timestamp": null,
+                                "color": 3447003,
+                                "fields": [
+                                    {
+                                        "name": "User",
+                                        "value": "IDEEserveYT#8455",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Code",
+                                        "value": "ff00ks",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Captcha Id",
+                                        "value": "8fdab148-edb0-6111-e479-b350674ff16a",
+                                        "inline": false
+                                    }
+                                ],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Add me :) https://bit.ly/2ZTIEvw"
+                                }
+                            }
+                        ],
+                        "pinned": false
+                    },
+                    {
+                        "username": "Alpha Extended",
+                        "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Captcha Failed (No attemps left)",
+                                "type": "rich",
+                                "timestamp": null,
+                                "color": 15158332,
+                                "fields": [
+                                    {
+                                        "name": "User",
+                                        "value": "IDEEserveYT#8455",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Code",
+                                        "value": "FUiNEl",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Captcha Id",
+                                        "value": "e4e66e6d-4d30-3999-ac9a-c38d9810c5d6",
+                                        "inline": false
+                                    }
+                                ],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Add me :) https://bit.ly/2ZTIEvw"
+                                }
+                            }
+                        ],
+                        "pinned": false
+                    },
+                    {
+                        "username": "Alpha Extended",
+                        "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Captcha Failed 0/3",
+                                "type": "rich",
+                                "timestamp": null,
+                                "color": 15158332,
+                                "fields": [
+                                    {
+                                        "name": "User",
+                                        "value": "IDEEserveYT#8455",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Code",
+                                        "value": "ff00ks",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "User answer",
+                                        "value": "FUiNq)",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Captcha Id",
+                                        "value": "8fdab148-edb0-6111-e479-b350674ff16a",
+                                        "inline": false
+                                    }
+                                ],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Add me :) https://bit.ly/2ZTIEvw"
+                                }
+                            }
+                        ],
+                        "pinned": false
+                    },
+                    {
+                        "username": "Alpha Extended",
+                        "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Captcha Failed 1/3",
+                                "type": "rich",
+                                "timestamp": null,
+                                "color": 15158332,
+                                "fields": [
+                                    {
+                                        "name": "User",
+                                        "value": "IDEEserveYT#8455",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Code",
+                                        "value": "FUiNEl",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "User answer",
+                                        "value": "FUiNe)",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Captcha Id",
+                                        "value": "e4e66e6d-4d30-3999-ac9a-c38d9810c5d6",
+                                        "inline": false
+                                    }
+                                ],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Add me :) https://bit.ly/2ZTIEvw"
+                                }
+                            }
+                        ],
+                        "pinned": false
+                    },
+                    {
+                        "username": "Alpha Extended",
+                        "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Captcha Failed 2/3",
+                                "type": "rich",
+                                "timestamp": null,
+                                "color": 15158332,
+                                "fields": [
+                                    {
+                                        "name": "User",
+                                        "value": "IDEEserveYT#8455",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Code",
+                                        "value": "ff00ks",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "User answer",
+                                        "value": "FUiNe)",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Captcha Id",
+                                        "value": "8fdab148-edb0-6111-e479-b350674ff16a",
+                                        "inline": false
+                                    }
+                                ],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Add me :) https://bit.ly/2ZTIEvw"
+                                }
+                            }
+                        ],
+                        "pinned": false
+                    },
+                    {
+                        "username": "Alpha Extended",
+                        "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Captcha Created",
+                                "type": "rich",
+                                "timestamp": null,
+                                "color": 3447003,
+                                "fields": [
+                                    {
+                                        "name": "User",
+                                        "value": "IDEEserveYT#8455",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Code",
+                                        "value": "FUiNEl",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Captcha Id",
+                                        "value": "e4e66e6d-4d30-3999-ac9a-c38d9810c5d6",
+                                        "inline": false
+                                    }
+                                ],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Add me :) https://bit.ly/2ZTIEvw"
+                                }
+                            }
+                        ],
+                        "pinned": false
+                    },
+                    {
+                        "username": "Alpha Extended",
+                        "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Captcha Created",
+                                "type": "rich",
+                                "timestamp": null,
+                                "color": 3447003,
+                                "fields": [
+                                    {
+                                        "name": "User",
+                                        "value": "IDEEserveYT#8455",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Code",
+                                        "value": "ff00ks",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Captcha Id",
+                                        "value": "8fdab148-edb0-6111-e479-b350674ff16a",
+                                        "inline": false
+                                    }
+                                ],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Add me :) https://bit.ly/2ZTIEvw"
+                                }
+                            }
+                        ],
+                        "pinned": false
+                    },
+                    {
+                        "username": "Alpha Extended",
+                        "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Captcha Expired",
+                                "type": "rich",
+                                "timestamp": null,
+                                "color": 3447003,
+                                "fields": [
+                                    {
+                                        "name": "User",
+                                        "value": "IDEEserveYT#8455",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Code",
+                                        "value": "Uf9FFr",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Captcha Id",
+                                        "value": "c66cd2e4-30e6-326d-8a03-b5537d46ea20",
+                                        "inline": false
+                                    }
+                                ],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Add me :) https://bit.ly/2ZTIEvw"
+                                }
+                            }
+                        ],
+                        "pinned": false
+                    },
+                    {
+                        "username": "Alpha Extended",
+                        "avatar": "https://cdn.discordapp.com/avatars/716067809485914193/c3b18416d4dd638a31997536522e16d0.webp",
+                        "content": "",
+                        "embeds": [
+                            {
+                                "title": "Captcha Expired",
+                                "type": "rich",
+                                "timestamp": null,
+                                "color": 3447003,
+                                "fields": [
+                                    {
+                                        "name": "User",
+                                        "value": "IDEEserveYT#8455",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Code",
+                                        "value": "2RJInn",
+                                        "inline": true
+                                    },
+                                    {
+                                        "name": "Captcha Id",
+                                        "value": "459c88e0-e311-0af3-9e92-16a3771c6731",
+                                        "inline": false
+                                    }
+                                ],
+                                "thumbnail": null,
+                                "image": null,
+                                "author": null,
+                                "footer": {
+                                    "text": "Add me :) https://bit.ly/2ZTIEvw"
+                                }
+                            }
+                        ],
+                        "pinned": false
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "name": "heroku-logs",
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Developer",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "Helper",
+                        "allow": 1024,
+                        "deny": 0
+                    }
+                ],
+                "messages": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "Developer",
+            "color": "#9b59b6",
+            "hoist": true,
+            "permissions": 104320617,
+            "mentionable": false,
+            "position": 5
+        },
+        {
+            "name": "Helper",
+            "color": "#71368a",
+            "hoist": true,
+            "permissions": 1580723831,
+            "mentionable": false,
+            "position": 4
+        },
+        {
+            "name": "Verified",
+            "color": "#2ecc71",
+            "hoist": false,
+            "permissions": 104320577,
+            "mentionable": false,
+            "position": 1
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1591546617387,
+    "guildID": "717094887253737482",
+    "id": "719223384491294720",
+    "iconURL": "https://cdn.discordapp.com/icons/717094887253737482/0a4dc95e34ae0ef27d4287239960b7ed.webp"
+}

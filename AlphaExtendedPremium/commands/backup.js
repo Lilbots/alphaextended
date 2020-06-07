@@ -4,6 +4,7 @@ const moment = require("moment");
 const fs = require('fs')
 
 module.exports.run = async(client, message, args, prefix) => {
+    backup.setStorageFolder(__dirname + '/backups/');
     if (args[0] === "create") {
         if (!message.member.hasPermission("MANAGE_GUILD")) return message.reply("You dont have the perms to do that");
         if ((await backup.list()).length === 125) return message.reply("You have reach the max backups count. To make more backup you need to purchase premium");
@@ -130,10 +131,10 @@ module.exports.run = async(client, message, args, prefix) => {
         await embed.setTitle(`All backups (${(await backup.list()).length} backups)`);
         await msg.edit(embed);
         await message.channel.send(({ files: [{ attachment: `backup-list-${message.guild.name}.txt` }] })).catch()
-        fs.unlink(`backup-list-${message.guild.name}.txt`, function(err) {
-            if (err) throw err;
-            console.log('File deleted!');
-        });
+            /* fs.unlink(`backup-list-${message.guild.name}.txt`, function(err) {
+                 if (err) throw err;
+                 console.log('File deleted!');
+             });*/
     } else {
         return message.reply("Invalid action. You need to choose an action : create/load/remove/list");
     }

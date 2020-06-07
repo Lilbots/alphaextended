@@ -4,6 +4,7 @@ const moment = require("moment");
 const fs = require('fs')
 
 module.exports.run = async(client, message, args, prefix) => {
+    backup.setStorageFolder(__dirname + '/backups/');
     if (args[0] === "create") {
         if (!message.member.hasPermission("MANAGE_GUILD")) return message.reply("You dont have the perms to do that");
         if ((await backup.list()).length === 25) return message.reply("You have reach the max backups count. To make more backup you need to purchase premium");

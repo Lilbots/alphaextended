@@ -1,0 +1,24 @@
+Id : 719224761183502336
+Created on : 6/07/2020 16:22:25
+Backup size : 0.09
+Name : Alpha Extended Support
+Region : us-east
+Verification level : NONE
+Explicit Content Filter : DISABLED
+Default Message Notification : ALL
+Server id : 717094887253737482
+Icon Url : https://cdn.discordapp.com/icons/717094887253737482/0a4dc95e34ae0ef27d4287239960b7ed.webp
+
+
+Id : 719225767602552832
+Created on : 6/07/2020 16:26:25
+Backup size : 0.09
+Name : Alpha Extended Support
+Region : us-east
+Verification level : NONE
+Explicit Content Filter : DISABLED
+Default Message Notification : ALL
+Server id : 717094887253737482
+Icon Url : https://cdn.discordapp.com/icons/717094887253737482/0a4dc95e34ae0ef27d4287239960b7ed.webp
+
+
