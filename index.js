@@ -23,7 +23,7 @@ client.logger = winston.createLogger({
         winston.format.printf(log => `[${log.timestamp}] [${log.level}]: ${log.message}`)
     )
 })
-
+//rd
 //require('./server')(client);
 require('./AlphaExtendedPremium/index');
 var AsciiTable = require("ascii-table");
