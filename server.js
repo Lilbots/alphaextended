@@ -23,6 +23,7 @@ paypal.configure({
     "client_id": "ATZaNyfplkNva8TS1lhUtvAeW-zTyVu_dZsInm_cJn2-LjpAxF_4NIMXWk5Q7HQbQEDGoO3RPUSuC5sm",
     "client_secret": "EO2YR6nHAnBLR1SDfdz3PEYh_RWOleg4Uu3K4QbvaMsoEONtOc_D9F8z1YwQfh-RZcGAWhh2ujlSgYfk"
 });
+/
 
 app.get('/', (req, res) => {
     const hash = req.url.split('?')[1];
