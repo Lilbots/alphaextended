@@ -128,8 +128,8 @@ client.on('guildMemberAdd', async member => {
                     .setTitle("Hello there! Welcome to " + member.guild.name + "!")
                     .setDescription("To enter the server you need to complete this simple captcha\n\nWhy?\nYou need to complete this captcha because the captcha protect servers from self-bot\n\nAlso you have 2 minutes to complete it\n\nHere is you captcha :")
                     .setFooter("Add me :) https://bit.ly/2ZTIEvw");
-                const msg = await member.send(embed);
-                await member.send(attachment);
+                const msg = await member.send(embed, attachment);
+               // await member.send(attachment);
                 if (logChannel) {
                     const embed = new Discord.MessageEmbed()
                         .setColor('BLUE')
